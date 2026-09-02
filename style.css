@@ -50,6 +50,27 @@
     justify-content: space-around;
     align-items: center;
 }
+@media (max-width:600px){
+    .menu{
+        margin: 10px;
+        grid-area: menu;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .servicos{
+        padding-top: 20px;
+        grid-area: servicos;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+  
+    }
+
+}
 
 .home{
     grid-area: home;
